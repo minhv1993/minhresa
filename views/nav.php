@@ -1,14 +1,5 @@
 <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
     <div class="container">
-        <div class="col-md-5 navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                <i class="fa fa-bars"></i>
-            </button>
-            <div class="sc-content logo">
-                <a href="#page-top"><img src="img/logo-placeholder.png" alt="Logo"></a>
-            </div>
-        </div>
-
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="col-md-7 pull-right collapse navbar-collapse navbar-right navbar-main-collapse">
             <ul class="nav navbar-nav">
@@ -36,6 +27,7 @@
                 </li>
             </ul>
         </div>
+        <div id="diamond-narrow"></div>
         <!-- /.navbar-collapse -->
     </div>
     <!-- /.container -->
