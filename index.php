@@ -43,7 +43,7 @@
                     <div class="hero-area sc-content-intro">
                         <h1 class="brand-heading">Grayscale</h1>
                         <p>A free, responsive, one page Bootstrap theme.
-                            <br>Created by Start Bootstrap.</p>
+                            <br>Created by Start Bootstrap. Test</p>
                     </div>
                     <a href="#about" class="btn btn-circle page-scroll">
                         <i class="fa fa-angle-double-down"></i>
