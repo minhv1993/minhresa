@@ -1,34 +1,12 @@
-<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-    <div class="container">
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="col-md-7 pull-right collapse navbar-collapse navbar-right navbar-main-collapse">
-            <ul class="nav navbar-nav">
-                <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                <li class="hidden">
-                    <a href="#page-top"></a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#about">Us</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#download">Schedule</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#contact">Wedding Party</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#contact">Registry</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#contact">RSVP</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#contact">FAQs</a>
-                </li>
-            </ul>
-        </div>
-        <div id="diamond-narrow"></div>
-        <!-- /.navbar-collapse -->
+<nav class="navbar container" role="navigation">
+    <a class="hidden show-xs menu-toggle icon-menu-hamburger" id="menu-toggle"></a>
+    <div class="nav-menu" id="nav-menu">
+            <a class="nav-item" href="#travel">Travel</a>
+            <a class="nav-item" href="#contact">Registry</a>
+            <a class="nav-item" href="#schedule">Schedule</a>
+            <a class="nav-item nav-logo" href="#home">H & M </a>
+            <a class="nav-item" href="#wedding-party">Wedding Party</a>
+            <a class="nav-item" href="#contact">RSVP</a>
+            <a class="nav-item" href="#contact">FAQs</a>
     </div>
-    <!-- /.container -->
 </nav>
