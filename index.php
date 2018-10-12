@@ -1,3 +1,8 @@
+<?php 
+require_once 'vendor/Mobile_Detect.php';
+$detect = new Mobile_Detect;
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -24,17 +29,20 @@
 
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
     <!-- Custom CSS -->
     <link href="css/grayscale.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
 <!-- Navigation -->
 <?php include("views/nav.php"); ?>
+
+<!-- Content -->
+<main>
 <!-- Intro Header -->
-<header id="hero" class="intro">
+<section id="hero" class="intro">
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <div class="intro-body">
         <div class="container">
@@ -52,7 +60,7 @@
             </div>
         </div>
     </div>
-</header>
+</section>
 <!-- About Section -->
 <?php include("views/home.php"); ?>
 
@@ -96,7 +104,7 @@
 <div class="sc-content">
 
 </div>
-
+</main>
 <!-- Footer -->
 <footer>
     <div class="container text-center sc-content-footer">
@@ -111,26 +119,9 @@
 <script src="js/jquery.easing.min.js"></script>
 <!-- Custom Theme JavaScript -->
 <script src="js/grayscale.js"></script>
+<!-- Main JavaScript -->
+<script src="js/main.js"></script>
 
-<!-- Sitecake admin pass autofill -->
-<script type="text/javascript">
-    if (typeof window.sitecakeGlobals !== 'undefined' && sitecakeGlobals.editMode === false) {
-        var interval = setInterval(function () {
-            var elements = [],
-                toolbar = document.getElementById('sitecake-toolbox');
-            if (toolbar) {
-                clearInterval(interval);
-                elements = toolbar.getElementsByTagName("input");
-                for (var i = 0; i < elements.length; i++) {
-                    if (elements[i].type === 'password') {
-                        elements[i].value = "admin";
-                        break;
-                    }
-                }
-            }
-        }, 2000);
-    }
-</script>
 </body>
 
 </html>
