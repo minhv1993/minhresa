@@ -2,3 +2,24 @@ body, html {
     background: white;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+.container {
+    padding: 1rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: initial;
+}
+
+// mobile-specific
+@media (max-width: 768px){
+    .show-xs {
+        display: initial !important;
+    }
+    .hidden-xs {
+        display: none !important;
+    }
+}

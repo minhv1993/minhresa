@@ -1,9 +1,9 @@
 // Navigation Bar
 function navCollapse(){
-    if ($(".navbar").offset().top > 50) {
-        $(".navbar-fixed-top").addClass("top-nav-collapse");
+    if ($(".nav-bar").offset().top > 50) {
+        $(".nav-bar-fixed-top").addClass("top-nav-collapse");
     } else {
-        $(".navbar-fixed-top").removeClass("top-nav-collapse");
+        $(".nav-bar-fixed-top").removeClass("top-nav-collapse");
     }
 }
 
