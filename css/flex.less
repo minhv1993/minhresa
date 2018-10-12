@@ -1,7 +1,16 @@
 .flex-grid {
-    display: flex;
+    display: block;
+    
+    @media (min-width: 768px) {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .center {
+        align-items: center;
+    }
 }
 
-.col {
+.flex-col {
     flex: 1;
 }
