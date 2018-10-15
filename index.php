@@ -16,11 +16,13 @@ $detect = new Mobile_Detect;
     <title>Grayscale - Start Bootstrap Theme</title>
 
     <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet"
-          type="text/css">
+    <link href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" rel="stylesheet"  type="text/css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Yesteryear" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crushed" rel="stylesheet">
+    <!--<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">-->
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -36,75 +38,36 @@ $detect = new Mobile_Detect;
     <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" class="site-loading">
+<!-- Loading -->
+<section id="site-loading-container">
+    <div>Please wait</div>
+    <img src="/img/loading-pig.gif"/>
+    <div>while we wake up </div>
+    <div>our developer...</div>
+</section>
+
 <!-- Navigation -->
 <?php include("views/nav.php"); ?>
 
 <!-- Content -->
 <main>
-<!-- Intro Header -->
-<section id="hero" class="intro">
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <div class="intro-body">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <div class="hero-area sc-content-intro">
-                        <h1 class="brand-heading">Grayscale</h1>
-                        <p>A free, responsive, one page Bootstrap theme.
-                            <br>Created by Start Bootstrap. Test</p>
-                    </div>
-                    <a href="#about" class="btn btn-circle page-scroll">
-                        <i class="fa fa-angle-double-down"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- About Section -->
-<?php include("views/home.php"); ?>
-
-<!-- Download Section -->
-<section id="download" class="content-section text-center">
-    <div class="download-section">
-        <div class="container">
-            <div class="col-lg-8 col-lg-offset-2 download sc-content-download">
-                <h2>Download Grayscale</h2>
-                <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
-                <p class="btn-transparent"><a href="http://startbootstrap.com/template-overviews/grayscale/">Visit
-                    Download Page</a></p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Contact Section -->
-<section id="contact" class="container content-section text-center">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 sc-content contact">
-            <h2>Contact Start Bootstrap</h2>
-            <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates
-                and themes, or to just say hello!</p>
-            <p><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a></p>
-        </div>
-        <div style="clear:both;"></div>
-        <div class="sc-content">
-            <!--
-           <img class="social" src="img/soc-btn-twitter.jpg">
-           <img class="social" src="img/soc-btn-github.jpg">
-           <img class="social" src="img/soc-btn-google.jpg">
--->
-
-            <p class="social-facebook"><a href="#">Follow me</a></p>
-        </div>
-    </div>
-</section>
-
-<!-- Map Section -->
-<div class="sc-content">
-
-</div>
+    <section id="pagpe-loading" class="page-loading">
+    </section>
+    <section id="home" class="page-container">
+    </section>
+    <section id="schedule" class="page-container">
+    </section>
+    <section id="wedding-party" class="page-container">
+    </section>
+    <section id="registry" class="page-container">
+    </section>
+    <section id="travel" class="page-container">
+    </section>
+    <section id="rsvp" class="page-container">
+    </section>
+    <section id="faqs" class="page-container">
+    </section>
 </main>
 <!-- Footer -->
 <footer>
@@ -122,7 +85,5 @@ $detect = new Mobile_Detect;
 <script src="js/grayscale.js"></script>
 <!-- Main JavaScript -->
 <script src="js/main.js"></script>
-
 </body>
-
 </html>

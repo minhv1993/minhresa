@@ -1,12 +1,34 @@
-<nav class="nav-bar container" role="navigation">
+<nav class="nav-bar container scrolled" role="navigation">
     <a class="hidden show-xs menu-toggle icon-menu-hamburger" id="menu-toggle"></a>
     <div class="nav-menu" id="nav-menu">
-            <a class="nav-item show-xs" href="#home">Home</a>
-            <a class="nav-item" href="#schedule">Schedule</a>
-            <a class="nav-item" href="#wedding-party">Wedding Party</a>
-            <a class="nav-item nav-logo hidden-xs" href="#home">H<i class="icon-heart-empty"></i>M </a>
-            <a class="nav-item" href="#contact">Registry</a>
-            <a class="nav-item" href="#travel">Travel</a>
-            <a class="nav-item" href="#contact">RSVP</a>
+            <a class="nav-item show-xs hidden" href="#home">
+                <span class="nav-icon"><i class="fa fa-home"></i></span>
+                <span>HOME</span>
+            </a>
+            <a class="nav-item" href="#schedule">
+                <span class="nav-icon"><i class="fa fa-clock"></i></span>
+                <span>SCHEDULE</span>
+            </a>
+            <a class="nav-item shrink-0" href="#wedding-party">
+                <span class="nav-icon"><i class="fa fa-male"></i><i class="fa fa-female"></i></span>
+                <span>WEDDING PARTY</span>
+            </a>
+            <a class="nav-item" href="#contact">
+                <span class="nav-icon"><i class="fa fa-gift"></i></span>
+                <span>REGISTRY</span>
+            </a>
+            <a class="nav-item nav-logo hidden-xs" href="#home">T + M</a>
+            <a class="nav-item" href="#travel">
+                <span class="nav-icon"><i class="fa fa-plane"></i></span>
+                <span>TRAVEL</span>
+            </a>
+            <a class="nav-item" href="#contact">
+                <span class="nav-icon"><i class="fa fa-user-check"></i></span>
+                <span>RSVP</span>
+            </a>
+            <a class="nav-item" href="#contact">
+                <span class="nav-icon"><i class="fa fa-question-circle"></i></span>
+                <span>CONTACT</span>
+            </a>
     </div>
 </nav>

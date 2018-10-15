@@ -1,4 +1,24 @@
 
+<!-- Intro Header -->
+<section id="hero" class="intro">
+    <div class="intro-body">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="hero-area sc-content-intro">
+                        <h1 class="brand-heading">We're Getting Marry!</h1>
+                        <p>A free, responsive, one page Bootstrap theme.
+                            <br>Created by Start Bootstrap. Test</p>
+                    </div>
+                    <a href="#about" class="btn btn-circle page-scroll">
+                        <i class="fa fa-angle-double-down"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- About Section -->
 <section id="about" class="container content-section text-center">
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2 sc-content about">

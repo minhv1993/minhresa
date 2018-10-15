@@ -1,9 +1,9 @@
 // Navigation Bar
 function navCollapse(){
     if ($(".nav-bar").offset().top > 50) {
-        $(".nav-bar-fixed-top").addClass("top-nav-collapse");
+        $(".nav-bar").addClass("scrolled");
     } else {
-        $(".nav-bar-fixed-top").removeClass("top-nav-collapse");
+        $(".nav-bar").removeClass("scrolled");
     }
 }
 
@@ -12,7 +12,8 @@ $(document).ready(navCollapse);
 
 // Full screen header image
 jQuery(document).ready(function($){
-// Defining a function to set size for #hero 
+    // Defining a function to set size for #hero 
+    var $navMenu = $('#nav-menu');
     function fullscreen(){
         $('#hero').css({
             width: jQuery(window).width(),
@@ -21,17 +22,33 @@ jQuery(document).ready(function($){
     }
 
     function toggleMenu(){
-        $('#nav-menu').toggleClass('active');
+        $navMenu.toggleClass('active');
     }
 
     function hideMenu(){
-        $('#nav-menu').removeClass('active');
+        $navMenu.removeClass('active');
     }
-    
-    fullscreen();
 
-    // subscribe to events
-    $(window).on('resize', fullscreen);
-    $('#menu-toggle').on('click', toggleMenu);
-    $('main').on('click', hideMenu);
+    function navigate(){
+        hideMenu();
+    }
+
+    function bindEventHandlers(){
+        $(window).on('resize', fullscreen);
+        $('#menu-toggle').on('click', toggleMenu);
+        $('main').on('click', hideMenu);
+        $('.nav-item').on('click', navigate)
+    }
+
+    function hideSpinner(){
+        $('#site-loading-container').hide();
+        $('body').removeClass('site-loading');
+    }
+
+    function init(){
+        bindEventHandlers();
+        fullscreen();
+        setTimeout(hideSpinner, 2000);
+    }
+    init();
 });
