@@ -5,3 +5,22 @@
         display: block;
     }
 }
+
+#site-loading-container {
+    .flex-display();
+    .align-items(center);
+    .justify-content(center);
+    .flex-dir(column);
+    color: @blue-dusty-dark;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.site-loading {
+    overflow: hidden;
+}

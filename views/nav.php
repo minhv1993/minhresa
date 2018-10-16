@@ -1,4 +1,4 @@
-<nav class="nav-bar container scrolled" role="navigation">
+<nav class="nav-bar container scrolled" role="navigation" id="nav-bar">
     <a class="hidden show-xs menu-toggle icon-menu-hamburger" id="menu-toggle"></a>
     <div class="nav-menu" id="nav-menu">
             <a class="nav-item show-xs hidden" href="#home">
@@ -27,7 +27,7 @@
                 <span>RSVP</span>
             </a>
             <a class="nav-item" href="#contact">
-                <span class="nav-icon"><i class="fa fa-question-circle"></i></span>
+                <span class="nav-icon"><i class="fa fa-phone"></i></span>
                 <span>CONTACT</span>
             </a>
     </div>

@@ -10,16 +10,20 @@ function navCollapse(){
 $(window).scroll(navCollapse);
 $(document).ready(navCollapse);
 
+// jQuery for page scrolling feature - requires jQuery Easing plugin
+$(function() {
+    $('a.page-scroll').bind('click', function(event) {
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: $($anchor.attr('href')).offset().top
+        }, 1500, 'easeInOutExpo');
+        event.preventDefault();
+    });
+});
 // Full screen header image
 jQuery(document).ready(function($){
     // Defining a function to set size for #hero 
-    var $navMenu = $('#nav-menu');
-    function fullscreen(){
-        $('#hero').css({
-            width: jQuery(window).width(),
-            height: jQuery(window).height()
-        });
-    }
+    var $navMenu = $('#nav-bar');
 
     function toggleMenu(){
         $navMenu.toggleClass('active');
@@ -34,7 +38,6 @@ jQuery(document).ready(function($){
     }
 
     function bindEventHandlers(){
-        $(window).on('resize', fullscreen);
         $('#menu-toggle').on('click', toggleMenu);
         $('main').on('click', hideMenu);
         $('.nav-item').on('click', navigate)
@@ -47,7 +50,6 @@ jQuery(document).ready(function($){
 
     function init(){
         bindEventHandlers();
-        fullscreen();
         setTimeout(hideSpinner, 2000);
     }
     init();

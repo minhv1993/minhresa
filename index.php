@@ -22,6 +22,7 @@ $detect = new Mobile_Detect;
     <link href="https://fonts.googleapis.com/css?family=Yesteryear" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Crushed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Charmonman|Grand+Hotel|Pacifico" rel="stylesheet">
     <!--<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">-->
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -33,18 +34,14 @@ $detect = new Mobile_Detect;
 
     <!-- Bootstrap Core CSS -->
     <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
-    <!-- Custom CSS -->
-    <link href="css/grayscale.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" class="site-loading">
 <!-- Loading -->
 <section id="site-loading-container">
-    <div>Please wait</div>
     <img src="/img/loading-pig.gif"/>
-    <div>while we wake up </div>
-    <div>our developer...</div>
+    <div>waking up our developer...</div>
 </section>
 
 <!-- Navigation -->
@@ -54,7 +51,8 @@ $detect = new Mobile_Detect;
 <main>
     <section id="pagpe-loading" class="page-loading">
     </section>
-    <section id="home" class="page-container">
+    <section id="home" class="page-container active">
+        <?php include('views/home.php'); ?>
     </section>
     <section id="schedule" class="page-container">
     </section>
@@ -81,9 +79,9 @@ $detect = new Mobile_Detect;
 <script src="js/bootstrap.min.js"></script>
 <!-- Plugin JavaScript -->
 <script src="js/jquery.easing.min.js"></script>
-<!-- Custom Theme JavaScript -->
-<script src="js/grayscale.js"></script>
 <!-- Main JavaScript -->
 <script src="js/main.js"></script>
+<!-- Main JavaScript -->
+<script src="js/home.js" async="async"></script>
 </body>
 </html>
