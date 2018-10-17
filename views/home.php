@@ -23,54 +23,62 @@
 <section id="story" class="tl-wrapper" >
     <nav class="tl-nav-wrapper" id="timeline-nav">
         <ul class="tl-nav">
-            <li role="presentation" class="active">
-            <a href="#section1">
-                <span class="tl-nav-counter">01</span>
-                <h3 class="tl-nav-title">Intro</h3>
-                <p class="tl-nav-body"><strong>Timeline-style navigation</strong>. Scroll down to see what happens, or click on a number in the nav.</p>
-            </a>
-            </li>
-
             <li role="presentation">
-            <a href="#section2">
-                <span class="tl-nav-counter">02</span>
-                <h3 class="tl-nav-title">Section 2 Title</h3>
-                <p class="tl-nav-body">Sed sit amet justo sed odio tempus tempus. Vestibulum sed varius mi, sit amet condimentum lacus.</p>
-            </a>
+                <a class="tl-nav-link" href="#story1">
+                    <span class="tl-nav-counter">1</span>
+                    <span class="tl-nav-divider hidden show-xs"></span>
+                    <span class="tl-nav-title upper">The Stairs</span>
+                </a>
             </li>
-
             <li role="presentation">
-            <a href="#section3">
-                <span class="tl-nav-counter">03</span>
-                <h3 class="tl-nav-title">Section 3 Title</h3>
-                <p class="tl-nav-body">Sed sit amet justo sed odio tempus tempus. Vestibulum sed varius mi, sit amet condimentum lacus.</p>
-            </a>
+                <a class="tl-nav-link" href="#story2">
+                    <span class="tl-nav-counter">2</span>
+                    <span class="tl-nav-divider hidden show-xs"></span>
+                    <span class="tl-nav-title upper">The Walks</span>
+                </a>
             </li>
-            
             <li role="presentation">
-            <a href="#section4">
-                <span class="tl-nav-counter">04</span>
-                <h3 class="tl-nav-title">Section 4 Title</h3>
-                <p class="tl-nav-body">Sed sit amet justo sed odio tempus tempus. Vestibulum sed varius mi, sit amet condimentum lacus.</p>
-            </a>
+                <a class="tl-nav-link" href="#story3">
+                    <span class="tl-nav-counter">3</span>
+                    <span class="tl-nav-divider hidden show-xs"></span>
+                    <span class="tl-nav-title upper">The SEED</span>
+                </a>
             </li>
-            
             <li role="presentation">
-            <a href="#section5">
-                <span class="tl-nav-counter">05</span>
-                <h3 class="tl-nav-title">Section 5 Title</h3>
-                <p class="tl-nav-body">Sed sit amet justo sed odio tempus tempus. Vestibulum sed varius mi, sit amet condimentum lacus.</p>
-            </a>
+                <a class="tl-nav-link" href="#story4">
+                    <span class="tl-nav-counter">4</span>
+                    <span class="tl-nav-divider hidden show-xs"></span>
+                    <span class="tl-nav-title upper">The Talk</span>
+                </a>
             </li>
-            
             <li role="presentation">
-            <a href="#section6">
-                <span class="tl-nav-counter">06</span>
-                <h3 class="tl-nav-title">Section 6 Title</h3>
-                <p class="tl-nav-body">Sed sit amet justo sed odio tempus tempus. Vestibulum sed varius mi, sit amet condimentum lacus.</p>
-            </a>
+                <a class="tl-nav-link" href="#story5">
+                    <span class="tl-nav-counter">5</span>
+                    <span class="tl-nav-divider hidden show-xs"></span>
+                    <span class="tl-nav-title upper">The Courtship</span>
+                </a>
             </li>
-
+            <li role="presentation">
+                <a class="tl-nav-link" href="#story6">
+                    <span class="tl-nav-counter">6</span>
+                    <span class="tl-nav-divider hidden show-xs"></span>
+                    <span class="tl-nav-title upper">The Journey</span>
+                </a>
+            </li>
+            <li role="presentation">
+                <a class="tl-nav-link" href="#story7">
+                    <span class="tl-nav-counter">7</span>
+                    <span class="tl-nav-divider hidden show-xs"></span>
+                    <span class="tl-nav-title upper">The Proposal</span>
+                </a>
+            </li>
+            <li role="presentation">
+                <a class="tl-nav-link" href="#story8">
+                    <span class="tl-nav-counter">8</span>
+                    <span class="tl-nav-divider hidden show-xs"></span>
+                    <span class="tl-nav-title upper">The Altar</span>
+                </a>
+            </li>
         </ul>
     </nav>
 
@@ -79,28 +87,36 @@
         <div class="tl-right">to the altar</div>
     </section>
 
-    <section class="tl-section section1" id="section1">
+    <section class="tl-section" id="story1">
     Scroll down or use the nav.
     </section>
 
-    <section class="tl-section section2" id="section2">
+    <section class="tl-section" id="story2">
     Section 2
     </section>
 
-    <section class="tl-section section3" id="section3">
+    <section class="tl-section" id="story3">
     Section 3
     </section>
 
-    <section class="tl-section section4" id="section4">
+    <section class="tl-section" id="story4">
     Section 4
     </section>
 
-    <section class="tl-section section5" id="section5">
+    <section class="tl-section" id="story5">
     Section 5
     </section>
 
-    <section class="tl-section section6" id="section6">
+    <section class="tl-section" id="story6">
     Section 6
+    </section>
+    
+    <section class="tl-section" id="story7">
+    Section 7
+    </section>
+
+    <section class="tl-section" id="story8">
+    Section 8
     </section>
 </section>
 <section id="about" class="container content-section text-center">
