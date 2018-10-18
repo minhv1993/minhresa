@@ -131,7 +131,8 @@
     .align-items(center);
     .justify-content(center);
     background: lightblue;
-    height: 50vh;
+    height: calc(~'100vh - 6rem');
+    border: 1px solid black;
 }
 
 .tl-nav-wrapper {
@@ -157,17 +158,6 @@
     margin: 0;
     right: -2.7em;
     height: calc(~"100% - @{tl-nav-padding} * 2");
-
-    li {
-        .flex-display();
-        .justify-content(flex-end);
-        position: relative;
-        .transition(all 1s ease-in-out);
-
-        &.active {
-            flex-grow: 1;
-        }
-    }
 }
 
 a.tl-nav-link {
@@ -178,12 +168,17 @@ a.tl-nav-link {
     .flex-display();
     .flex-dir(row-reverse);
     .align-items(center);
+    .transition(all 1s ease-in-out);
     
     span {
         .transition(all 0.3s ease-in-out);
     }
+    
+    &.active {
+        flex-grow: 1;
+    }
 
-    &:hover {
+    &:hover, &.active {
         span{
             font-weight: bold;
         }

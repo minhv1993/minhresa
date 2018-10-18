@@ -22,63 +22,47 @@
 <!-- About Section -->
 <section id="story" class="tl-wrapper" >
     <nav class="tl-nav-wrapper" id="timeline-nav">
-        <ul class="tl-nav">
-            <li role="presentation">
-                <a class="tl-nav-link" href="#story1">
-                    <span class="tl-nav-counter">1</span>
-                    <span class="tl-nav-divider hidden show-xs"></span>
-                    <span class="tl-nav-title upper">The Stairs</span>
-                </a>
-            </li>
-            <li role="presentation">
-                <a class="tl-nav-link" href="#story2">
-                    <span class="tl-nav-counter">2</span>
-                    <span class="tl-nav-divider hidden show-xs"></span>
-                    <span class="tl-nav-title upper">The Walks</span>
-                </a>
-            </li>
-            <li role="presentation">
-                <a class="tl-nav-link" href="#story3">
-                    <span class="tl-nav-counter">3</span>
-                    <span class="tl-nav-divider hidden show-xs"></span>
-                    <span class="tl-nav-title upper">The SEED</span>
-                </a>
-            </li>
-            <li role="presentation">
-                <a class="tl-nav-link" href="#story4">
-                    <span class="tl-nav-counter">4</span>
-                    <span class="tl-nav-divider hidden show-xs"></span>
-                    <span class="tl-nav-title upper">The Talk</span>
-                </a>
-            </li>
-            <li role="presentation">
-                <a class="tl-nav-link" href="#story5">
-                    <span class="tl-nav-counter">5</span>
-                    <span class="tl-nav-divider hidden show-xs"></span>
-                    <span class="tl-nav-title upper">The Courtship</span>
-                </a>
-            </li>
-            <li role="presentation">
-                <a class="tl-nav-link" href="#story6">
-                    <span class="tl-nav-counter">6</span>
-                    <span class="tl-nav-divider hidden show-xs"></span>
-                    <span class="tl-nav-title upper">The Journey</span>
-                </a>
-            </li>
-            <li role="presentation">
-                <a class="tl-nav-link" href="#story7">
-                    <span class="tl-nav-counter">7</span>
-                    <span class="tl-nav-divider hidden show-xs"></span>
-                    <span class="tl-nav-title upper">The Proposal</span>
-                </a>
-            </li>
-            <li role="presentation">
-                <a class="tl-nav-link" href="#story8">
-                    <span class="tl-nav-counter">8</span>
-                    <span class="tl-nav-divider hidden show-xs"></span>
-                    <span class="tl-nav-title upper">The Altar</span>
-                </a>
-            </li>
+        <div class="tl-nav">
+            <a class="tl-nav-link" href="#story1">
+                <span class="tl-nav-counter">1</span>
+                <span class="tl-nav-divider hidden show-xs"></span>
+                <span class="tl-nav-title upper">The Stairs</span>
+            </a>
+            <a class="tl-nav-link" href="#story2">
+                <span class="tl-nav-counter">2</span>
+                <span class="tl-nav-divider hidden show-xs"></span>
+                <span class="tl-nav-title upper">The Walks</span>
+            </a>
+            <a class="tl-nav-link" href="#story3">
+                <span class="tl-nav-counter">3</span>
+                <span class="tl-nav-divider hidden show-xs"></span>
+                <span class="tl-nav-title upper">The SEED</span>
+            </a>
+            <a class="tl-nav-link" href="#story4">
+                <span class="tl-nav-counter">4</span>
+                <span class="tl-nav-divider hidden show-xs"></span>
+                <span class="tl-nav-title upper">The Talk</span>
+            </a>
+            <a class="tl-nav-link" href="#story5">
+                <span class="tl-nav-counter">5</span>
+                <span class="tl-nav-divider hidden show-xs"></span>
+                <span class="tl-nav-title upper">The Courtship</span>
+            </a>
+            <a class="tl-nav-link" href="#story6">
+                <span class="tl-nav-counter">6</span>
+                <span class="tl-nav-divider hidden show-xs"></span>
+                <span class="tl-nav-title upper">The Journey</span>
+            </a>
+            <a class="tl-nav-link" href="#story7">
+                <span class="tl-nav-counter">7</span>
+                <span class="tl-nav-divider hidden show-xs"></span>
+                <span class="tl-nav-title upper">The Proposal</span>
+            </a>
+            <a class="tl-nav-link" href="#story8">
+                <span class="tl-nav-counter">8</span>
+                <span class="tl-nav-divider hidden show-xs"></span>
+                <span class="tl-nav-title upper">The Altar</span>
+            </a>
         </ul>
     </nav>
 
