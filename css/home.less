@@ -123,18 +123,21 @@
     color: @tl-color;
     position: relative; 
 }
-  
-.tl-section {
-    padding: 3rem 1rem;
+// TIMELINE SECTION
+.tl-section-container {
     color: #3f3f3f;
     .flex-display();
     .align-items(center);
     .justify-content(center);
     background: lightblue;
-    height: calc(~'100vh - 6rem');
-    border: 1px solid black;
+    height: 100vh;
 }
-
+.tl-section-content {
+    padding: 2em 11em 2em 2em;
+    width: 100%;
+    text-align: center;
+}
+// TIMELINE NAV
 .tl-nav-wrapper {
     position: fixed;
     bottom: 0;
@@ -205,7 +208,7 @@ a.tl-nav-link {
 
 .tl-nav-title {
     margin: 0; 
-    width: 9em;
+    width: 5em;
     text-align: right;
 }
 
@@ -214,7 +217,7 @@ a.tl-nav-link {
 }
 
 @media (max-width: 449px){
-    .tl-nav-wrapper {
+    .tl-wrapper {
         font-size: 12px;
     }
 

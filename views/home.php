@@ -31,89 +31,71 @@
             <a class="tl-nav-link" href="#story2">
                 <span class="tl-nav-counter">2</span>
                 <span class="tl-nav-divider hidden show-xs"></span>
-                <span class="tl-nav-title upper">The Walks</span>
+                <span class="tl-nav-title upper">The SEED</span>
             </a>
             <a class="tl-nav-link" href="#story3">
                 <span class="tl-nav-counter">3</span>
                 <span class="tl-nav-divider hidden show-xs"></span>
-                <span class="tl-nav-title upper">The SEED</span>
+                <span class="tl-nav-title upper">The Talk</span>
             </a>
             <a class="tl-nav-link" href="#story4">
                 <span class="tl-nav-counter">4</span>
                 <span class="tl-nav-divider hidden show-xs"></span>
-                <span class="tl-nav-title upper">The Talk</span>
+                <span class="tl-nav-title upper">The Journey</span>
             </a>
             <a class="tl-nav-link" href="#story5">
                 <span class="tl-nav-counter">5</span>
                 <span class="tl-nav-divider hidden show-xs"></span>
-                <span class="tl-nav-title upper">The Courtship</span>
+                <span class="tl-nav-title upper">The Proposal</span>
             </a>
             <a class="tl-nav-link" href="#story6">
                 <span class="tl-nav-counter">6</span>
-                <span class="tl-nav-divider hidden show-xs"></span>
-                <span class="tl-nav-title upper">The Journey</span>
-            </a>
-            <a class="tl-nav-link" href="#story7">
-                <span class="tl-nav-counter">7</span>
-                <span class="tl-nav-divider hidden show-xs"></span>
-                <span class="tl-nav-title upper">The Proposal</span>
-            </a>
-            <a class="tl-nav-link" href="#story8">
-                <span class="tl-nav-counter">8</span>
                 <span class="tl-nav-divider hidden show-xs"></span>
                 <span class="tl-nav-title upper">The Altar</span>
             </a>
         </ul>
     </nav>
 
-    <section class="tl-section intro" id="intro">
-        <div class="tl-left">From the stairs...</div>
-        <div class="tl-right">to the altar</div>
-    </section>
-
-    <section class="tl-section" id="story1">
-    Scroll down or use the nav.
-    </section>
-
-    <section class="tl-section" id="story2">
-    Section 2
-    </section>
-
-    <section class="tl-section" id="story3">
-    Section 3
-    </section>
-
-    <section class="tl-section" id="story4">
-    Section 4
-    </section>
-
-    <section class="tl-section" id="story5">
-    Section 5
-    </section>
-
-    <section class="tl-section" id="story6">
-    Section 6
-    </section>
-    
-    <section class="tl-section" id="story7">
-    Section 7
-    </section>
-
-    <section class="tl-section" id="story8">
-    Section 8
-    </section>
-</section>
-<section id="about" class="container content-section text-center">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 sc-content about">
-            <h2>About Grayscale</h2>
-            <p>Grayscale is a free Bootstrap 3 theme created by Start Bootstrap. It can be yours right now, simply
-                download the template on <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview
-                    page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
-            <p>This theme features stock photos by <a href="http://gratisography.com/">Gratisography</a> along with a
-                custom Google Maps skin courtesy of <a href="http://snazzymaps.com/">Snazzy Maps</a>.</p>
-            <p>Grayscale includes full HTML, CSS, and custom JavaScript files along with LESS files for easy
-                customization.</p>
+    <section class="tl-section-container intro" id="intro">
+        <div class="tl-section-content">
+            <div class="tl-left">From the stairs...</div>
+            <div class="tl-right">to the altar</div>
         </div>
-    </div>
+    </section>
+
+    <section class="tl-section-container stairs" id="story1">
+        <div class="tl-section-content">
+            Scroll down or use the nav.
+        </div>
+    </section>
+
+    <section class="tl-section-container seed" id="story2">
+        <div class="tl-section-content">
+            Section 2
+        </div>
+    </section>
+
+    <section class="tl-section-container talk" id="story3">
+        <div class="tl-section-content">
+            Section 3
+        </div>
+    </section>
+
+    <section class="tl-section-container journey" id="story4">
+        <div class="tl-section-content">
+            Section 4
+        </div>
+    </section>
+
+    <section class="tl-section-container proposal" id="story5">
+        <div class="tl-section-content">
+            Section 5
+        </div>
+    </section>
+
+    <section class="tl-section-container altar" id="story6">
+        <div class="tl-section-content">
+            Section 6
+        </div>
+    </section>
 </section>
