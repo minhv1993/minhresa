@@ -2,7 +2,7 @@ $(function() {
     // Timeline Nav
     function updateTl(){
         var $window = $(window);
-        var $timeline = $('#timeline-nav');
+        var $timelineNav = $('#timeline-nav');
         var $story = $('#story');
 
         var vpTop = $window.scrollTop();
@@ -14,17 +14,22 @@ $(function() {
 
         // Show & Hide the timeline
         if(vpTop + vpHeight >= storyTop){
-            $timeline.show();
+            $timelineNav.show();
         }else{
-            $timeline.hide();
+            $timelineNav.hide();
         }
 
-        // Height of the timeline
+        // Height & opacity of the timeline
         var svpTop = storyTop - vpTop;
-        $timeline.css('top', (svpTop > 0 ? svpTop : 0) + 'px');
+        var tlTop = (svpTop > 0 ? svpTop : 0);
+        $timelineNav.css('top', tlTop + 'px');
 
         var svpBot = vpBot - storyBot;
-        $timeline.css('bottom', (svpBot > 0 ? svpBot : 0) + 'px');
+        var tlBot = (svpBot > 0 ? svpBot : 0)
+        $timelineNav.css('bottom', tlBot + 'px');
+
+        var opacity = 1 - ((tlTop >= tlBot ? tlTop : tlBot) / vpHeight);
+        $timelineNav.css('opacity', opacity);
 
         // Focus on the current section
         if(!window.isStoryClicked){
@@ -52,7 +57,7 @@ $(function() {
         window.isStoryClicked = true;
         $anchor.siblings().removeClass('active');
         $anchor.addClass('active');
-        $('html, body').animate({
+        $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top - 1
         }, 1500, 'easeInOutExpo', function(){
             window.isStoryClicked = false;

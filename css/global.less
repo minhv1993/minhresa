@@ -25,11 +25,27 @@ body, html {
     text-transform: uppercase;
 }
 
-a {
-    color: @white-antique;
+a, .btn, button, .lnk{
+    cursor: pointer;
     text-decoration: none;
-    text-shadow: 0 0 4px @blue-dusty-light;
-    transition: .25s all ease-in-out;
+    .transition(.25s all ease-in-out);
+
+    &.disabled, &[disabled="true"] {
+        pointer-events: none !important;
+    }
+}
+
+.lnk {
+    &.disabled, &[disabled="true"] {
+        color: @gray;
+        text-shadow: 0 0 4px white;
+    }
+}
+
+.lnk-primary {
+    color: @blue-dusty-dark;
+    text-shadow: 0 0 4px white;
+    cursor: pointer;
     
     &:hover {
         color: white;
@@ -37,6 +53,96 @@ a {
     }
 }
 
+.lnk-secondary {
+    color: white;
+    text-shadow: 0 0 4px @blue-dusty-dark;
+    cursor: pointer;
+    
+    &:hover {
+        color: @blue-dusty-dark;
+        text-shadow: 0 0 4px white;
+    }
+}
+
+.btn-container {
+    padding: 1rem;
+    .flex-display();
+    .justify-content(space-around);
+    .align-items(center);
+}
+
+.btn {
+    border: 2px solid @blue-dusty-dark;
+    padding: .25em .5em;
+    border-radius: 2em;
+
+    &:hover {
+        box-shadow: 0 0 4px @blue-dusty-dark;
+    }
+
+    &.disabled, &[disabled="true"] {
+        border-color: @gray;
+    }
+}
+
+.btn-primary {
+    color: white;
+    background: @blue-dusty-dark;
+
+    &:hover {
+        color: @blue-dusty-dark;
+        background: white;
+    }
+
+    &.disabled, &[disabled="true"] {
+        background: @gray;
+    }
+}
+
+.btn-secondary {
+    color: @blue-dusty-dark;
+    background: white;
+
+    &:hover {
+        color: white;
+        background: @blue-dusty-dark;
+    }
+
+    &.disabled, &[disabled="true"] {
+        color: @gray;
+        border-color: @gray;
+    }
+}
+
+.pacifico {
+    font-family: @pacifico-font;
+}
+
+.grand-hotel {
+    font-family: @grand-hotel-font;
+}
+
+.crushed {
+    font-family: @crushed-font;
+}
+
+.nova-mono {
+    font-family: @nova-mono-font;
+}
+
+.text-me-one {
+    font-family: @text-me-one-font;
+}
+
+.txt-left {
+    text-align: left;
+}
+.txt-right {
+    text-align: right;
+}
+.txt-center {
+    text-align: center;
+}
 // mobile-specific
 @media (max-width: 767px){
     .show-xs {
