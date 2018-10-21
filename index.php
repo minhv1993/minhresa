@@ -48,22 +48,19 @@ $detect = new Mobile_Detect;
 
 <!-- Content -->
 <main>
-    <section id="pagpe-loading" class="page-loading">
-    </section>
-    <section id="home" class="page-container active">
-        <?php include('views/home.php'); ?>
-    </section>
     <section id="schedule" class="page-container">
     </section>
     <section id="wedding-party" class="page-container">
     </section>
     <section id="registry" class="page-container">
     </section>
+    <section id="home" class="page-container">
+    </section>
     <section id="travel" class="page-container">
     </section>
     <section id="rsvp" class="page-container">
     </section>
-    <section id="faqs" class="page-container">
+    <section id="gallery" class="page-container">
     </section>
 </main>
 <!-- Footer -->
@@ -78,9 +75,10 @@ $detect = new Mobile_Detect;
 <script src="js/bootstrap.min.js"></script>
 <!-- Plugin JavaScript -->
 <script src="js/jquery.easing.min.js"></script>
+<!-- Masonry & Images Loader -->
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
 <!-- Main JavaScript -->
 <script src="js/main.js"></script>
-<!-- Main JavaScript -->
-<script src="js/home.js" async="async"></script>
 </body>
 </html>

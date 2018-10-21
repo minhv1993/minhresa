@@ -1,0 +1,50 @@
+// out: gallery.css, compress: true, sourceMap: false
+#hero-gallery {
+    background-image: url(https://wallpapercave.com/wp/a9RWP83.jpg);
+}
+
+@spacing-size: 5px;
+.masonry-grid-container{
+    padding: @spacing-size;
+}
+
+.masonry-grid{
+    &:after{
+        content: '';
+        display: block;
+        clear: both;
+    }
+}
+
+.mg-sizer, .mg-item {
+    width: calc(~"100% - 2 * @{spacing-size}");
+    border: @spacing-size solid white;
+}
+
+.mg-item {
+    float: left;
+
+    img{
+        max-width: 100%;
+        display: block;
+        border-radius: 4px;
+    }
+}
+
+@media (min-width: 600px){
+    .mg-sizer, .mg-item {
+        width: calc(~"50% - 2 * @{spacing-size}");
+    }
+    .mg-2-col { 
+        width: 100% 
+    }   
+}
+
+@media (min-width: 768px){
+    .mg-sizer, .mg-item {
+        width: calc(~"50% - 2 * @{spacing-size}");
+    }
+    .mg-2-col { 
+        width: 100% 
+    }   
+}

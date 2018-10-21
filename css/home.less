@@ -1,38 +1,10 @@
+// out: home.css, compress: true, sourceMap: false
 @import "variables.less";
 @import "mixin.less";
 
 // HERO
-@hero-padding: 8rem;
-#hero.hero {
-    padding: 8rem 0;
-    background:url(../img/hero-1.jpg) no-repeat bottom center scroll;
-    background-size:cover;
-    position:relative;
-    background-color: #000;
-    width: 100%;
-    height: 100vh;
-    font-size: 2rem;
-    text-align: center;
-    color: white;
-
-    &:after {
-        content: "";
-        display: inline-block;
-        height: 2 * @hero-padding;
-        width: 100%;
-        background: linear-gradient(to top, white, rgba(255,255,255,0));
-        position: absolute;
-        bottom: 0;
-        left: 0;
-    }
-}
-
-.hero-body {
-    text-align: center;
-    height: calc(~"100% - 8rem");
-    padding: 0 10%;
-    display: inline-block;
-    position: relative;
+#hero-home {
+    background-image: url(../img/hero-1.jpg);
 }
 
 .announce {
@@ -86,7 +58,7 @@
 }
 
 @media (min-width: 768px){
-    #hero.hero {
+    #hero-home {
         font-size: 3rem;
     }
     .announce-name {
@@ -123,6 +95,8 @@
     color: @tl-color;
     position: relative;
     font-size: 12px;
+    max-width: 1024px;
+    margin: auto;
 }
 // TIMELINE SECTION
 .tl-section-container {
@@ -184,6 +158,7 @@
     margin: 0;
     right: -1.8em;
     height: calc(~"100% - @{tl-nav-padding} * 2");
+    .transition(all .5s ease-in-out);
 }
 
 a.tl-nav-link {
@@ -292,5 +267,15 @@ a.btn-top {
 }
 
 @media (min-width: 768px){
+    .tl-nav {  
+        padding-top: 7em;
+        height: calc(~"100% - 8em");
+    }
+}
 
+@media (min-width: 1024px){
+    .tl-nav {
+        padding-top: 8em;
+        height: calc(~"100% - 9em");
+    }
 }

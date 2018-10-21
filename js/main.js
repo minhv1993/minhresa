@@ -1,36 +1,36 @@
-// Navigation Bar
-function navCollapse(){
-    if ($(".nav-bar").offset().top > 50) {
-        $(".nav-bar").addClass("scrolled");
-    } else {
-        $(".nav-bar").removeClass("scrolled");
+// Full screen header image
+jQuery(document).ready(function($){
+    // Navigation Bar
+    function navCollapse(){
+        if ($(".nav-bar").offset().top > 50) {
+            $(".nav-bar").addClass("scrolled");
+        } else {
+            $(".nav-bar").removeClass("scrolled");
+        }
     }
-}
-
-$(window).scroll(navCollapse);
-$(document).ready(navCollapse);
-
-// jQuery for page scrolling feature - requires jQuery Easing plugin
-$(function() {
-    $('a.page-scroll').bind('click', function(event) {
+    
+    function pageScrollClicked(event){
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
-    });
-});
-// Full screen header image
-jQuery(document).ready(function($){
-    // Defining a function to set size for #hero 
-    var $navMenu = $('#nav-bar');
+    }
+
+    function navItemClicked(){
+        var $anchor = $(this);
+        $('.page-container').hide();
+        $($anchor.attr('href')).fadeIn(1500);
+    }
+
+    var $navBar = $('#nav-bar');
 
     function toggleMenu(){
-        $navMenu.toggleClass('active');
+        $navBar.toggleClass('active');
     }
 
     function hideMenu(){
-        $navMenu.removeClass('active');
+        $navBar.removeClass('active');
     }
 
     function navigate(){
@@ -41,6 +41,9 @@ jQuery(document).ready(function($){
         $('#menu-toggle').on('click', toggleMenu);
         $('main').on('click', hideMenu);
         $('.nav-item').on('click', navigate)
+        $(window).scroll(navCollapse);
+        $('a.page-scroll').bind('click', pageScrollClicked);
+        $('a.nav-item').bind('click', navItemClicked);
     }
 
     function hideSpinner(){
@@ -48,9 +51,38 @@ jQuery(document).ready(function($){
         $('body').removeClass('site-loading');
     }
 
+    var pages = [
+        { id: '#home', url: '/views/home.php' },
+        { id: '#schedule', url: '/views/schedule.php' },
+        { id: '#wedding-party', url: '/views/wedding-party.php' },
+        { id: '#registry', url: '/views/registry.php' },
+        { id: '#travel', url: '/views/travel.php' },
+        { id: '#rsvp', url: '/views/rsvp.php' },
+        { id: '#gallery', url: '/views/gallery.php' }
+    ];
+    var pageLoaded = [];
+
+    function handlePageLoaded(page){
+        pageLoaded.push(page);
+        if(page.id === window.currentPage){
+            $(page.id).fadeIn();
+        }
+        if(pageLoaded.length === pages.length){
+            bindEventHandlers();
+            hideSpinner();
+        }
+    }
+
+    function loadPages(){
+        pages.forEach(function(page){
+            $(page.id).load(window.location.origin + page.url, handlePageLoaded.bind(this, page));
+        });
+    }
+
     function init(){
-        bindEventHandlers();
-        setTimeout(hideSpinner, 2000);
+        window.currentPage = window.location.hash || '#home';
+        navCollapse();
+        loadPages();
     }
     init();
 });

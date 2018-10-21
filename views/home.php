@@ -1,6 +1,8 @@
+<!-- Home Styling -->
+<link href="css/home.css" rel="stylesheet">
 
 <!-- Intro Header -->
-<section id="hero" class="hero">
+<section id="hero-home" class="hero fullscreen">
     <div class="hero-body container">
         <div class="announce">
             <div class="announce-name">
@@ -28,32 +30,32 @@
             </a>
             <a class="tl-nav-link" href="#story1">
                 <span class="tl-nav-counter">1</span>
-                <span class="tl-nav-divider hidden show-xs"></span>
+                <span class="tl-nav-divider"></span>
                 <span class="tl-nav-title upper">The Stairs</span>
             </a>
             <a class="tl-nav-link" href="#story2">
                 <span class="tl-nav-counter">2</span>
-                <span class="tl-nav-divider hidden show-xs"></span>
+                <span class="tl-nav-divider"></span>
                 <span class="tl-nav-title upper">The SEED</span>
             </a>
             <a class="tl-nav-link" href="#story3">
                 <span class="tl-nav-counter">3</span>
-                <span class="tl-nav-divider hidden show-xs"></span>
+                <span class="tl-nav-divider"></span>
                 <span class="tl-nav-title upper">The Talk</span>
             </a>
             <a class="tl-nav-link" href="#story4">
                 <span class="tl-nav-counter">4</span>
-                <span class="tl-nav-divider hidden show-xs"></span>
+                <span class="tl-nav-divider"></span>
                 <span class="tl-nav-title upper">The Journey</span>
             </a>
             <a class="tl-nav-link" href="#story5">
                 <span class="tl-nav-counter">5</span>
-                <span class="tl-nav-divider hidden show-xs"></span>
+                <span class="tl-nav-divider"></span>
                 <span class="tl-nav-title upper">The Proposal</span>
             </a>
             <a class="tl-nav-link" href="#story6">
                 <span class="tl-nav-counter">6</span>
-                <span class="tl-nav-divider hidden show-xs"></span>
+                <span class="tl-nav-divider"></span>
                 <span class="tl-nav-title upper">The Altar</span>
             </a>
         </ul>
@@ -124,11 +126,11 @@
                 <br><br>
                 <b>Best date?</b> The 1<sup>st</sup> Valentine’s Day as a couple, Minh planned a surprise picnic at the Bunny Park in Newport Beach and made Theresa a mix CD. 
                 <br><br>
-                <b>Funniest date?</b> On their 2<sup>nd</sup> anniversary, they decided to be fancy shmancy and went to Mastro’s for a steak dinner. The waiter asked if they wanted a blue crab topping on the steak. they thought it was free so they said, "Yes!" And then it came out to be an additional $20 on the check. At least there was free cake for the anniversary and delicious bread (which they boxed, bagged, and forgot on the table).
+                <b>Funniest date?</b> On their 2<sup>nd</sup> anniversary, we decided to be fancy shmancy and went to Mastro’s for a steak dinner. The waiter asked if we wanted a blue crab topping on the steak. We thought it was free so we said, "Yes!" And then it came out to be an additional $20 on the check. At least there was free cake for the anniversary and delicious bread (which we boxed, bagged, and forgot on the table).
                 <br><br>
-                <b>Cheesiest thing?</b> Since they have a common love for music, they decided to choose each year to define each year’s experiences in their relationship. The songs you hear on the website are their songs.
+                <b>Cheesiest thing?</b> Since we have a common love for music, we decided to choose each year to define each year’s experiences in our relationship. The songs you hear on the website are their songs.
                 <br><br>
-                <b>Fun Facts?</b> During the dating period up until they became an official couple, Minh would randomly ask Theresa to marry him, which she would reject every time. Talk about go big or go home, right?
+                <b>Fun Facts?</b> During the dating period up until we became an official couple, Minh would randomly ask Theresa to marry him, which she would reject every time. Talk about go big or go home, right?
             </p>
         </div>
     </section>
@@ -155,8 +157,11 @@
             </p>
             <div class="btn-container txt-center">
                 <a class="btn btn-primary">Save The Date</a>
-                <a class="btn btn-primary" href="#rsvp">RSVP</a>
+                <a class="btn btn-primary nav-item" href="#rsvp">RSVP</a>
             </div>
         </div>
     </section>
 </section>
+
+<!-- Home JavaScript -->
+<script src="js/home.js" async="async"></script>
