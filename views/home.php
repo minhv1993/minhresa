@@ -10,10 +10,11 @@
                 <span class="and">+</span>
                 <span class="name">Theresa</span>
             </div>
-            <div class="announce-sub-text upper">Are Getting Married</div>
+            <div class="announce-sub-text upper bold">Are Getting Married</div>
         </div>
-        <div class="save-the-date">
-            <div class="upper">Join Us September 28th, 2019</div>
+        <div class="save-the-date upper bold">
+            <div>Join Us</div>
+            <div>September 28th, 2019</div>
         </div>
         <a href="#story" class="lnk lnk-secondary lnk-story page-scroll">
             The Story<i class="fa fa-level-down-alt"></i>
@@ -164,4 +165,4 @@
 </section>
 
 <!-- Home JavaScript -->
-<script src="js/home.js" async="async"></script>
+<script src="js/home.js"></script>

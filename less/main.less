@@ -30,7 +30,7 @@ main {
 @hero-padding: 8rem;
 .hero {
     padding: 8rem 0;
-    background: black no-repeat bottom center scroll;
+    background: gray no-repeat bottom center scroll;
     background-size:cover;
     position:relative;
     width: 100%;
@@ -61,4 +61,27 @@ main {
     padding: 0 10%;
     display: inline-block;
     position: relative;
+
+    &.flex {
+        .flex-display();
+
+        &.center {
+            .justify-content(center);
+            .align-content(center);
+        }
+    }
+
+    .page-title {
+        font-family: @grand-hotel-font;
+        text-shadow: 0 0 4px @blue-dusty-dark;
+        margin: auto;
+        font-size: 8rem;
+    }
+}
+
+.page-content {
+    position: relative;
+    font-size: 1.5em;
+    max-width: 1024px;
+    margin: -10rem auto 0;
 }

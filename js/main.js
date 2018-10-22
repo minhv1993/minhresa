@@ -34,13 +34,15 @@ jQuery(document).ready(function($){
     }
 
     function navigate(){
+        window.currentPage = $(this).attr('href');
+        $(window).trigger('page-loaded');
         hideMenu();
     }
 
     function bindEventHandlers(){
         $('#menu-toggle').on('click', toggleMenu);
         $('main').on('click', hideMenu);
-        $('.nav-item').on('click', navigate)
+        $('.nav-item').on('click', navigate);
         $(window).scroll(navCollapse);
         $('a.page-scroll').bind('click', pageScrollClicked);
         $('a.nav-item').bind('click', navItemClicked);
@@ -58,7 +60,7 @@ jQuery(document).ready(function($){
         { id: '#registry', url: '/views/registry.php' },
         { id: '#travel', url: '/views/travel.php' },
         { id: '#rsvp', url: '/views/rsvp.php' },
-        { id: '#gallery', url: '/views/gallery.php' }
+        { id: '#media', url: '/views/media.php' }
     ];
     var pageLoaded = [];
 
@@ -66,6 +68,7 @@ jQuery(document).ready(function($){
         pageLoaded.push(page);
         if(page.id === window.currentPage){
             $(page.id).fadeIn();
+            $(window).trigger('page-loaded', [page]);
         }
         if(pageLoaded.length === pages.length){
             bindEventHandlers();

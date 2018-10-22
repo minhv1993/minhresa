@@ -1,4 +1,5 @@
 $(function() {
+    var initialized = false;
     // Timeline Nav
     function updateTl(){
         var $window = $(window);
@@ -70,10 +71,13 @@ $(function() {
         $('a.tl-nav-link').bind('click', tlNavClicked);
     }
 
-    function init(){
-        updateTl();
-        bindEventHandlers();
+    function init() {
+        if(!initialized && window.currentPage === '#home'){
+            updateTl();
+            bindEventHandlers();
+            initialized = true;
+        }
     }
-    
-    $(document).ready(init);
+
+    $(window).on('page-loaded', init);
 });

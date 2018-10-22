@@ -1,0 +1,74 @@
+// out: ../css/media.css, compress: true, sourceMap: false
+#hero-media {
+    background-image: url(https://wallpapercave.com/wp/a9RWP83.jpg);
+}
+
+@spacing-size: 5px;
+.masonry-grid-container{
+    padding: @spacing-size;
+    max-width: 100%;
+}
+
+.masonry-grid{
+    &:after{
+        content: '';
+        display: block;
+        clear: both;
+    }
+}
+
+.mg-sizer, .mg-item {
+    width: calc(~"100% - 2 * @{spacing-size}");
+    border: @spacing-size solid transparent;
+}
+
+.mg-sizer {
+    opacity: 0;
+    display: none;
+}
+
+.mg-item {
+    float: left;
+
+    img{
+        max-width: 100%;
+        display: block;
+        border-radius: 4px;
+    }
+}
+
+@media (min-width: 768px){
+    .mg-sizer, .mg-item {
+        width: calc(~"50% - 2 * @{spacing-size}");
+    }
+    .mg-2-col { 
+        width: calc(~"100% - 2 * @{spacing-size}");
+    }   
+}
+
+@media (min-width: 1024px){
+    .mg-sizer, .mg-item {
+        width: calc(~"33.33% - 2 * @{spacing-size}");
+    }
+    .mg-2-col { 
+        width: calc(~"66.67% - 2 * @{spacing-size}");
+    }
+    .mg-3-col { 
+        width: calc(~"100% - 2 * @{spacing-size}");
+    }  
+}
+
+@media (min-width: 1280px){
+    .mg-sizer, .mg-item {
+        width: calc(~"25% - 2 * @{spacing-size}");
+    }
+    .mg-2-col { 
+        width: calc(~"50% - 2 * @{spacing-size}"); 
+    }
+    .mg-3-col { 
+        width: calc(~"75% - 2 * @{spacing-size}"); 
+    }
+    .mg-4-col { 
+        width: calc(~"100% - 2 * @{spacing-size}");
+    }
+}

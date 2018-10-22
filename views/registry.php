@@ -1,18 +1,20 @@
-<section class="hero">
-    <div class="hero-body container">
-        <div class="announce">
-            <div class="announce-name">
-                <span class="name">Minh</span>
-                <span class="and">+</span>
-                <span class="name">Theresa</span>
-            </div>
-            <div class="announce-sub-text upper">Are Getting Married</div>
-        </div>
-        <div class="save-the-date">
-            <div class="upper">Join Us September 28th, 2019</div>
-        </div>
-        <a href="#story" class="lnk lnk-secondary lnk-story page-scroll">
-            The Story<i class="fa fa-level-down-alt"></i>
-        </a>
+<!-- Registry Styling -->
+<link href="css/registry.css" rel="stylesheet">
+
+<section id="hero-registry" class="hero">
+    <div class="hero-body container flex center">
+        <h1 class="page-title">Registry</h1>
     </div>
+</section>
+<section class="container page-content txt-center">
+    <p>
+        As we are not moving into a home at this time, we will not be having a wedding registry. However, if you would like to give a gift, we would be grateful for a monetary gift towards our future together.
+        <br/><br/>
+        If you prefer electronic gifts, it is available on<br/>
+        <b>Zelle:</b> <em>gacon.14@gmail.com</em><br/>
+        <b><a href="https://venmo.com/Minh-Vo">Venmo</a>:</b> <em>@Minh-Vo</em><br/>
+        <br/><br/>
+        Thank you!<br/>
+        Minh & Theresa
+    </p>
 </section>

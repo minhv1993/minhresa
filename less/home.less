@@ -1,4 +1,4 @@
-// out: home.css, compress: true, sourceMap: false
+// out: ../css/home.css, compress: true, sourceMap: false
 @import "variables.less";
 @import "mixin.less";
 
@@ -7,8 +7,8 @@
     background-image: url(../img/hero-1.jpg);
 }
 
-.announce {
-    margin-top: 4rem;
+.announce,.save-the-date {
+    text-shadow: 0 0 4px @blue-dusty-dark;
 }
 
 .announce-name {
@@ -16,28 +16,35 @@
     .justify-content(center);
     .flex-dir(column);
     .align-items(center);
-    font-size: 6rem;
+    font-size: 8rem;
     font-family: @grand-hotel-font;
 
     span {
-        line-height: 4rem;
+        line-height: 6rem;
     }
 
     .name {
-        width: 16rem;
+        width: 20rem;
 
         &.txt-right {
             text-align: right;
         }
     }
+
     .and {    
         line-height: 3rem;
         margin-bottom: -1.5rem;
     }
+
+}
+
+.announce-sub-text {
+    line-height: 1.5;
 }
 
 .save-the-date {
     color: @mustard-yellow;
+    line-height: 1.5;
 }
 
 .lnk-story {
@@ -46,20 +53,23 @@
     left: 0;
     width: 100%;
     bottom: 3rem;
-    font-size: 4rem;
+    font-size: 5rem;
     text-decoration: underline;
 
-    i {
-        font-size: 2.4rem;
+    i {    
+        font-size: 2.7rem;
         position: relative;
-        top: 37px;
-        left: 5px;
+        top: 42px;
+        left: 6px;
     }
 }
 
 @media (min-width: 768px){
     #hero-home {
         font-size: 3rem;
+    }
+    .announce {
+        margin-top: 4rem;
     }
     .announce-name {
         font-size: 9rem;
@@ -74,6 +84,15 @@
 
         .and {
             line-height: 4rem;
+        }
+    }
+    .announce-sub-text {
+        font-size: 2.5rem;
+    }
+    .save-the-date {
+        font-size: 1.7rem;
+        div {
+            display: inline;
         }
     }
 
@@ -133,6 +152,18 @@
         font-size: 1.2rem;
     }
 }
+
+.journey {
+    p {
+        font-size: 1rem;
+    }
+}
+
+.altar {
+    .btn-container {
+        font-size: 1.25rem;
+    }
+}
 // TIMELINE NAV
 .tl-nav-wrapper {
     position: fixed;
@@ -162,7 +193,7 @@
 }
 
 a.tl-nav-link {
-    font-size: 1.5em;
+    font-size: 1.25em;
     display: block;
     padding: 1em 0;
     color: @tl-color;
@@ -221,7 +252,7 @@ a.btn-top {
 
 .tl-nav-title {
     margin: 0; 
-    width: 3.5em;
+    width: 4.5em;
     text-align: right;
 }
 
@@ -248,7 +279,6 @@ a.btn-top {
 
     .tl-nav-title {
         width: 5em;
-        text-align: right;
     }
 
     .btn-top {
@@ -257,13 +287,27 @@ a.btn-top {
     .tl-section-content {
         padding-right: 12rem;
         h2 {
-            font-size: 3rem;
+            font-size: 4rem;
         }
         p{
             font-size: 1.5rem;
         }
     }
-    
+    .talk {
+        p {
+            font-size: 1.4rem;
+        }
+    }
+    .journey {
+        p {
+            font-size: 1.3rem;
+        }
+    }
+    .altar {
+        .btn-container {
+            font-size: 1.75rem;
+        }
+    }
 }
 
 @media (min-width: 768px){
@@ -271,11 +315,25 @@ a.btn-top {
         padding-top: 7em;
         height: calc(~"100% - 8em");
     }
+    .tl-nav-title {
+        width: 6em;
+    }
+    .tl-section-content {
+        p{
+            font-size: 1.5rem;
+        }
+    }
 }
 
 @media (min-width: 1024px){
     .tl-nav {
         padding-top: 8em;
         height: calc(~"100% - 9em");
+    }
+    .tl-nav-title {
+        width: 7em;
+    }
+    .tl-section-content {
+        padding-right: 13rem;
     }
 }

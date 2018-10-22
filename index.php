@@ -30,7 +30,8 @@ $detect = new Mobile_Detect;
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-
+    <!-- lightbox -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.css" rel="stylesheet">
     <!-- Bootstrap Core CSS -->
     <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
     <link href="css/style.css" rel="stylesheet">
@@ -60,21 +61,19 @@ $detect = new Mobile_Detect;
     </section>
     <section id="rsvp" class="page-container">
     </section>
-    <section id="gallery" class="page-container">
+    <section id="media" class="page-container">
     </section>
 </main>
 <!-- Footer -->
-<footer>
-    <div class="container text-center sc-content-footer">
-        <p>Copyright © Your Website 2014</p>
-    </div>
-</footer>
+<?php include("views/footer.php") ?>
 <!-- jQuery -->
 <script src="js/jquery.js"></script>
 <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.min.js"></script>
 <!-- Plugin JavaScript -->
 <script src="js/jquery.easing.min.js"></script>
+<!-- Lightbox JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.js"></script>
 <!-- Masonry & Images Loader -->
 <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
