@@ -1,4 +1,4 @@
-<section class="hero">
+<section id="hero-travel" class="hero">
     <div class="hero-body container flex center">
         <h1 class="page-title">Travel</h1>
     </div>
