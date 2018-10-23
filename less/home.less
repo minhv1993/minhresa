@@ -127,7 +127,7 @@
     min-height: 100vh;
 }
 .tl-section-content {
-    padding: 2rem 7.5rem 2rem 2rem;
+    padding: 2rem 5rem 2rem 2rem;
     width: 100%;
     font-size: 1.5rem;
 
@@ -153,6 +153,12 @@
     }
 }
 
+.talk {
+    p{
+        font-size: 1.1rem;
+    }
+}
+
 .journey {
     p {
         font-size: 1rem;
@@ -168,7 +174,7 @@
 .tl-nav-wrapper {
     position: fixed;
     bottom: 0;
-    right: 1rem;
+    right: 1.5rem;
     max-height: 100%;
     .flex-display();
     .flex-flow(column nowrap);
@@ -187,7 +193,7 @@
     list-style-type: none;
     position: absolute;
     margin: 0;
-    right: -1.8em;
+    right: -2.2em;
     height: calc(~"100% - @{tl-nav-padding} * 2");
     .transition(all .5s ease-in-out);
 }
@@ -217,6 +223,11 @@ a.tl-nav-link {
         .tl-nav-divider {
             width: 1em;
         }
+
+        .tl-nav-icon {
+            color: white;
+            background: @blue-dusty-dark;
+        }
     }
 
     &:focus {
@@ -224,12 +235,12 @@ a.tl-nav-link {
     }
 }
 
-@to-top-size: 2.5rem;
+@circle-button-size: 3rem;
 a.btn-top {
     font-size: 2rem;
     padding: 0;
-    width: @to-top-size;
-    height: @to-top-size;
+    width: @circle-button-size;
+    height: @circle-button-size;
     box-shadow: 0 0 4px @tl-color;
     overflow: hidden;
     .flex-display();
@@ -241,6 +252,7 @@ a.btn-top {
 .tl-nav-counter {
     width: .4em;
     text-align: left;
+    display: none;
 }
 
 .tl-nav-divider {
@@ -248,12 +260,26 @@ a.btn-top {
     margin: 0 .5em;
     border: 1px solid @tl-color;
     box-shadow: 0 0 4px @tl-color;
+    display: none;
 }
 
 .tl-nav-title {
     margin: 0; 
     width: 4.5em;
     text-align: right;
+    display: none;
+}
+
+.tl-nav-icon {
+    font-size: 2rem;
+    background: white;
+    border: 2px solid @blue-dusty-dark;
+    border-radius: 3em;
+    width: @circle-button-size;
+    height: @circle-button-size;
+    .flex-display();
+    .justify-content(center);
+    .align-items(center);
 }
 
 .tl-nav-body {
@@ -270,7 +296,7 @@ a.btn-top {
     }
 
     .tl-nav {
-        right: -2.7em;
+        right: -1.6em;
     }
 
     .tl-nav-counter {
@@ -281,11 +307,7 @@ a.btn-top {
         width: 5em;
     }
 
-    .btn-top {
-        margin-right: 1.34rem;
-    }
     .tl-section-content {
-        padding-right: 12rem;
         h2 {
             font-size: 4rem;
         }
@@ -293,14 +315,9 @@ a.btn-top {
             font-size: 1.5rem;
         }
     }
-    .talk {
+    .talk, .journey {
         p {
             font-size: 1.4rem;
-        }
-    }
-    .journey {
-        p {
-            font-size: 1.3rem;
         }
     }
     .altar {
@@ -332,8 +349,5 @@ a.btn-top {
     }
     .tl-nav-title {
         width: 7em;
-    }
-    .tl-section-content {
-        padding-right: 13rem;
     }
 }

@@ -30,31 +30,37 @@
                 <i class="fa fa-angle-double-up"></i>
             </a>
             <a class="tl-nav-link" href="#story1">
+                <span class="tl-nav-icon"><i class="ico-stair"></i></span>
                 <span class="tl-nav-counter">1</span>
                 <span class="tl-nav-divider"></span>
                 <span class="tl-nav-title upper">The Stairs</span>
             </a>
             <a class="tl-nav-link" href="#story2">
+                <span class="tl-nav-icon"><i class="ico-seed"></i></span>
                 <span class="tl-nav-counter">2</span>
                 <span class="tl-nav-divider"></span>
                 <span class="tl-nav-title upper">The SEED</span>
             </a>
             <a class="tl-nav-link" href="#story3">
+                <span class="tl-nav-icon"><i class="ico-talk"></i></span>
                 <span class="tl-nav-counter">3</span>
                 <span class="tl-nav-divider"></span>
                 <span class="tl-nav-title upper">The Talk</span>
             </a>
             <a class="tl-nav-link" href="#story4">
+                <span class="tl-nav-icon"><i class="ico-journey"></i></span>
                 <span class="tl-nav-counter">4</span>
                 <span class="tl-nav-divider"></span>
                 <span class="tl-nav-title upper">The Journey</span>
             </a>
             <a class="tl-nav-link" href="#story5">
+                <span class="tl-nav-icon"><i class="ico-proposal"></i></span>
                 <span class="tl-nav-counter">5</span>
                 <span class="tl-nav-divider"></span>
                 <span class="tl-nav-title upper">The Proposal</span>
             </a>
             <a class="tl-nav-link" href="#story6">
+                <span class="tl-nav-icon"><i class="ico-altar"></i></span>
                 <span class="tl-nav-counter">6</span>
                 <span class="tl-nav-divider"></span>
                 <span class="tl-nav-title upper">The Altar</span>
@@ -112,7 +118,7 @@
                 Theresa responded, <em>"But we are friend, wouldn’t it be weird?"</em><br>
                 Minh said confidently, <em>"Nope!"</em><br>
                 Theresa replied, <em>"Uhm, I’ll think about it."</em><br>
-                Minh said, <em>"Ok!"</em> and resumed eating his burger.<br>
+                Minh said, <em>"Ok!"</em> and resumed eating his burger.
                 <br><br>
                 After consulting her clan of female friends (aka her roomates), she agreed to go because well, free food!! What  motivates college-aged students more than free food, right?
             </p>
