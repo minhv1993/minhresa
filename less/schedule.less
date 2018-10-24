@@ -1,0 +1,106 @@
+// out: ../css/schedule.css, compress: true, sourceMap: false
+@import "variables.less";
+@import "mixin.less";
+
+#hero-schedule {
+    background-image: url('https://meetings.hyatt.com/content/dam/hyatt/VALEN_P005_Wedding_Cake-copy-4tile.jpg');
+}
+
+.thank-you-note {
+    margin-bottom: 6rem;
+}
+
+.event {
+    .flex-display();
+    .flex-dir(column);
+    margin-bottom: 6rem;
+
+    h1, h2, h3, h4, h5, p {
+        margin: .5rem 0;
+    }
+
+    p {
+        font-size: 1.25rem;
+        margin-top: 1.5rem;
+    }
+}
+
+.event-header {
+    h2 {
+        color: @blue-dusty-dark;
+        font-family: @grand-hotel-font;
+        font-weight: normal;
+        font-size: 4rem;
+    }
+}
+
+.event-divider {
+    border: 1px solid @blue-dusty-dark;
+    position: relative;
+    margin: 2rem 0;
+
+    i{
+        position: absolute;
+        font-size: 36px;
+        background: white;
+        border: 2px solid @blue-dusty-dark;
+        border-radius: 3rem;
+        color: @blue-dusty-dark;
+        padding: 10px;
+        top: -30px;
+        left: calc(~"50% - 30px");
+    }
+}
+
+@media (min-width: 768px){
+    .event {
+        .flex-dir(row);
+        .justify-content(space-between);
+        font-size: 26px;
+    }
+
+    .event-header, .event-info {
+        .flex-display();
+        .justify-content(center);
+        .align-items(center);
+        .flex-dir(column);
+        .flex(0 0 calc(~"50% - 4rem - 2px"));
+        padding: 0 1rem;
+    }
+
+    .event-divider {
+        margin: 0 2rem;
+        i {
+            left: -30px;
+            top: calc(~"50% - 30px");
+        }
+    }
+
+    .event-info {
+
+        h3, h5 {
+            margin: 0 0 .25rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+
+        .btn-container {
+            font-size: 1.2rem;
+            width: 100%;
+        }
+    }
+}
+
+@media (min-width: 1024px){
+    .event-info {
+        p {
+            font-size: 1.25rem;
+        }
+
+        .btn-container {
+            font-size: 1.5rem;
+        }
+    }
+}

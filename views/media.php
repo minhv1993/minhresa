@@ -1,7 +1,7 @@
 <!-- Media Styling -->
 <link href="css/media.css" rel="stylesheet">
 <!-- Hero -->
-<section id="hero-media" class="hero">
+<section id="hero-media" class="hero condensed overlap">
     <div class="hero-body container flex center">
         <h1 class="page-title">Media</h1>
     </div>

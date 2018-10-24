@@ -16,11 +16,11 @@
     .justify-content(center);
     .flex-dir(column);
     .align-items(center);
-    font-size: 8rem;
+    font-size: 6rem;
     font-family: @grand-hotel-font;
 
     span {
-        line-height: 6rem;
+        line-height: 4rem;
     }
 
     .name {
@@ -40,11 +40,17 @@
 
 .announce-sub-text {
     line-height: 1.5;
+    font-size: 1.5rem;
 }
 
 .save-the-date {
     color: @mustard-yellow;
     line-height: 1.5;
+    font-size: 1.4rem;
+
+    div{
+        display: inline;
+    }
 }
 
 .lnk-story {
@@ -53,17 +59,28 @@
     left: 0;
     width: 100%;
     bottom: 3rem;
-    font-size: 5rem;
+    font-size: 3.5rem;
     text-decoration: underline;
 
-    i {    
-        font-size: 2.7rem;
+    i {
+        font-size: .5em;
         position: relative;
-        top: 42px;
-        left: 6px;
+        top: 1em;
+        right: -.1em;
     }
 }
 
+.btn-container {
+    font-size: 1.25rem;
+}
+@media (min-width: 600px){
+    .btn-container {
+        font-size: 1.5rem;
+    }
+    .lnk-story {
+        font-size: 4rem;
+    }
+}
 @media (min-width: 768px){
     #hero-home {
         font-size: 3rem;
@@ -72,11 +89,7 @@
         margin-top: 4rem;
     }
     .announce-name {
-        font-size: 9rem;
-
-        span {
-            line-height: 6rem;
-        }
+        font-size: 7rem;
 
         .name {
             width: 23rem;
@@ -84,25 +97,26 @@
 
         .and {
             line-height: 4rem;
+            margin-bottom: -1.6rem;
         }
     }
     .announce-sub-text {
-        font-size: 2.5rem;
+        font-size: 2rem;
+        line-height: 2;
     }
     .save-the-date {
-        font-size: 1.7rem;
+        font-size: 1.6rem;
         div {
             display: inline;
         }
     }
 
     .lnk-story {
-        font-size: 6rem;
+        font-size: 4.5rem;
 
         i {
-            font-size: 3.1rem;
-            top: 48px;
-            left: 6px;
+            font-size: 0.6em;
+            top: 42px;
         }
     }
 }
@@ -165,11 +179,6 @@
     }
 }
 
-.altar {
-    .btn-container {
-        font-size: 1.25rem;
-    }
-}
 // TIMELINE NAV
 .tl-nav-wrapper {
     position: fixed;
@@ -315,6 +324,14 @@ a.btn-top {
             font-size: 1.5rem;
         }
     }
+    .intro {
+        p {
+            font-size: 2rem;
+        }
+        div {
+            font-size: 3rem;
+        }
+    }
     .talk, .journey {
         p {
             font-size: 1.4rem;
@@ -336,6 +353,7 @@ a.btn-top {
         width: 6em;
     }
     .tl-section-content {
+        padding: 2rem 8rem 2rem 5rem;
         p{
             font-size: 1.5rem;
         }
