@@ -16,7 +16,7 @@
         Minh & Theresa
     </p>
 </section>
-<section class="container page-content txt-center">
+<section class="container page-content event-content txt-center">
     <div>
     </div>
     <div class="event">
@@ -33,11 +33,34 @@
             <h5>5056 Barlin Avenue</h5>
             <h5>Lakewood, CA 90712</h5>
             <p class="txt-just">
-                Please arrive 10-15 minutes before the ceremony begins and stay after for pictures with the newlywed.
+            Please arrive 10-15 minutes early. Please park on the side of the street next to the school. Lunch will be serve afterward.
             </p>
             <div class="btn-container">
-                <a class="btn btn-secondary">Direction</a>
-                <a class="btn btn-secondary">Add To Calendar</a>
+                <a class="btn btn-secondary btn-direction" href="https://goo.gl/maps/r4odU4fLhrK2" target="_blank">
+                    Direction <i class="fa fa-directions"></i>
+                </a>
+                <div class="add-to-cal-wrapper">
+                    <span class="btn btn-secondary btn-add-to-cal">
+                        <i class="fa fa-times close"></i>
+                        <span class="text">Add To Calendar <i class="fa fa-calendar-alt"></i> </span>
+                    </span>
+                    <a class="btn btn-icon cal-type hidden" href="https://add.eventable.com/generate/5bd163c580b3f20018520354/?events[]=5bd163c75d962a008a66928e&opt_in=True&cal_type=apple" target="_blank">
+                        <i class="fab fa-apple"></i>
+                        <span>Add to Apple iCal</span>
+                    </a>
+                    <a class="btn btn-icon cal-type hidden" href="https://add.eventable.com/generate/5bd163c580b3f20018520354/?events[]=5bd163c75d962a008a66928e&opt_in=True&cal_type=gcal" target="_blank">
+                        <i class="fab fa-google"></i>
+                        <span>Add to Google Calendar</span>
+                    </a>
+                    <a class="btn btn-icon cal-type hidden" href="https://add.eventable.com/generate/5bd163c580b3f20018520354/?events[]=5bd163c75d962a008a66928e&opt_in=True&cal_type=yahoo" target="_blank">
+                        <i class="fab fa-yahoo"></i>
+                        <span>Add to Yahoo Calendar</span>
+                    </a>
+                    <a class="btn btn-icon cal-type hidden" href="https://add.eventable.com/generate/5bd163c580b3f20018520354/?events[]=5bd163c75d962a008a66928e&opt_in=True&cal_type=outlook" target="_blank">
+                        <i class="fa fa-envelope"></i>
+                        <span>Add to Outlook</span>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -55,11 +78,34 @@
             <h5>629 S Glendora Ave</h5>
             <h5>West Covina, CA 91790</h5>
             <p class="txt-just">
-                Please arrive 10-15 minutes before the ceremony begins and stay after for pictures with the newlywed.
+            Please arrive 10-15 minutes early. After mass, pictures will be taken with family inside the church and with guests outside the church.
             </p>
             <div class="btn-container">
-                <a class="btn btn-secondary">Direction</a>
-                <a class="btn btn-secondary">Add To Calendar</a>
+                <a class="btn btn-secondary btn-direction" href="https://goo.gl/maps/73LUcdHZDAJ2" target="_blank">
+                    Direction <i class="fa fa-directions"></i>
+                </a>
+                <div class="add-to-cal-wrapper">
+                    <span class="btn btn-secondary btn-add-to-cal">
+                        <i class="fa fa-times close"></i>
+                        <span class="text">Add To Calendar <i class="fa fa-calendar-alt"></i> </span>
+                    </span>
+                    <a class="btn btn-icon cal-type hidden" href="https://add.eventable.com/generate/5bd163c580b3f20018520354/?events[]=5bd2dbf1a4f79000ac0a734e&opt_in=True&cal_type=apple" target="_blank">
+                        <i class="fab fa-apple"></i>
+                        <span>Add to Apple iCal</span>
+                    </a>
+                    <a class="btn btn-icon cal-type hidden" href="https://add.eventable.com/generate/5bd163c580b3f20018520354/?events[]=5bd2dbf1a4f79000ac0a734e&opt_in=True&cal_type=gcal" target="_blank">
+                        <i class="fab fa-google"></i>
+                        <span>Add to Google Calendar</span>
+                    </a>
+                    <a class="btn btn-icon cal-type hidden" href="https://add.eventable.com/generate/5bd163c580b3f20018520354/?events[]=5bd2dbf1a4f79000ac0a734e&opt_in=True&cal_type=yahoo" target="_blank">
+                        <i class="fab fa-yahoo"></i>
+                        <span>Add to Yahoo Calendar</span>
+                    </a>
+                    <a class="btn btn-icon cal-type hidden" href="https://add.eventable.com/generate/5bd163c580b3f20018520354/?events[]=5bd2dbf1a4f79000ac0a734e&opt_in=True&cal_type=outlook" target="_blank">
+                        <i class="fa fa-envelope"></i>
+                        <span>Add to Outlook</span>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -81,12 +127,40 @@
                 Dinner & Dancing starts at 7:00 PM
             </p>
             <p class="txt-just">
-                **Due to time constraint, we will not do individual table greeting. All gifts can be drop off at check-in table. Thank You.**
+                *If you plan to take entrance photos, please plan to arrive on-time/early. We will stop taking entrance photo @ 6:50PM.
+            </p>
+            <p class="txt-just">
+                **Due to time constraint and the amount of guests, we will only do table greeting for the elderly table. Please drop off your gifts at the check-in table.
             </p>
             <div class="btn-container">
-                <a class="btn btn-secondary">Direction</a>
-                <a class="btn btn-secondary">Add To Calendar</a>
+                <a class="btn btn-secondary btn-direction" href="https://goo.gl/maps/cpFKGUYGMrR2" target="_blank">
+                    Direction <i class="fa fa-directions"></i>
+                </a>
+                <div class="add-to-cal-wrapper">
+                    <span class="btn btn-secondary btn-add-to-cal">
+                        <i class="fa fa-times close"></i>
+                        <span class="text">Add To Calendar <i class="fa fa-calendar-alt"></i> </span>
+                    </span>
+                    <a class="btn btn-icon cal-type hidden" href="https://add.eventable.com/generate/5bd163c580b3f20018520354/?events[]=5bd2deb9a4f79000ac0a76dd&opt_in=True&cal_type=apple" target="_blank">
+                        <i class="fab fa-apple"></i>
+                        <span>Add to Apple iCal</span>
+                    </a>
+                    <a class="btn btn-icon cal-type hidden" href="https://add.eventable.com/generate/5bd163c580b3f20018520354/?events[]=5bd2deb9a4f79000ac0a76dd&opt_in=True&cal_type=gcal" target="_blank">
+                        <i class="fab fa-google"></i>
+                        <span>Add to Google Calendar</span>
+                    </a>
+                    <a class="btn btn-icon cal-type hidden" href="https://add.eventable.com/generate/5bd163c580b3f20018520354/?events[]=5bd2deb9a4f79000ac0a76dd&opt_in=True&cal_type=yahoo" target="_blank">
+                        <i class="fab fa-yahoo"></i>
+                        <span>Add to Yahoo Calendar</span>
+                    </a>
+                    <a class="btn btn-icon cal-type hidden" href="https://add.eventable.com/generate/5bd163c580b3f20018520354/?events[]=5bd2deb9a4f79000ac0a76dd&opt_in=True&cal_type=outlook" target="_blank">
+                        <i class="fa fa-envelope"></i>
+                        <span>Add to Outlook</span>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
 </section>
+<!-- Media JavaScript -->
+<script src="js/schedule.js"></script>

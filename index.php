@@ -16,7 +16,7 @@ $detect = new Mobile_Detect;
     <title>Grayscale - Start Bootstrap Theme</title>
 
     <!-- Custom Fonts -->
-    <link href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" rel="stylesheet"  type="text/css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" rel="stylesheet" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Crushed" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Grand+Hotel" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">

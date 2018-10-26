@@ -126,6 +126,14 @@
 }
 
 .transition(@value){
+    -moz-transition: @value;
+    -o-transition: @value;
     -webkit-transition: @value;
     transition: @value;
+}
+
+.transform(@value){
+    -webkit-transform: @value;  // Chrome, Opera 15+, Safari 3.1+ 
+    -ms-transform: @value;  // IE 9 
+    transform: @value;  // Firefox 16+, IE 10+, Opera 
 }
