@@ -20,7 +20,7 @@
             <a class="nav-item nav-logo hidden-xs" href="#home">T + M</a>
             <a class="nav-item upper" href="#media">
                 <span class="nav-icon"><i class="fa fa-images"></i></span>
-                <span>Media</span>
+                <span>Gallery</span>
             </a>
             <a class="nav-item upper" href="#travel">
                 <span class="nav-icon"><i class="fa fa-plane"></i></span>

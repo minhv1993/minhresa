@@ -16,6 +16,7 @@
 </section>
 <section class="map-container">
     <iframe 
+        crossorigin="anonymous"
         id="venues-airport-map"
         src="https://www.google.com/maps/d/embed?mid=1496Dvyv8Woz1ILc07ZV3L924uIs1hTGw" 
         width="100%" 

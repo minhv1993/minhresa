@@ -137,3 +137,16 @@
     -ms-transform: @value;  // IE 9 
     transform: @value;  // Firefox 16+, IE 10+, Opera 
 }
+
+.angle-loop(@n, @angle-offset, @angle-per-char, @i: 1) when (@i =< @n) {
+    @angle-to-rotate: @angle-offset + @angle-per-char * @i;
+    &:nth-child(@{i}) {
+        .transform(rotate((@angle-to-rotate)deg));
+    }
+    .angle-loop(@n, @angle-offset, @angle-per-char, (@i + 1));
+}
+
+.circular-text(@num-char, @span-angle: 180deg, @angle-offset: 0deg){
+    @angle-per-char: @span-angle / @num-char;
+    .angle-loop(@num-char, @angle-offset, @angle-per-char);
+}  

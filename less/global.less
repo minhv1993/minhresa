@@ -3,7 +3,7 @@
 
 body, html {
     background: white;
-    font-family: @text-me-one-font;
+    font-family: @overlock-font;
 }
 .container {
     padding: 1rem;
@@ -77,8 +77,12 @@ a, .btn, button, .lnk{
 
 .btn {
     border: 2px solid @blue-dusty-dark;
-    padding: .25em 1em;
     border-radius: 2em;
+    height: 43px;
+    padding: 0 1em;
+    .flex-display();
+    .justify-content(center);
+    .align-items(center);
 
     &:hover {
         box-shadow: 0 0 4px @blue-dusty-dark;
@@ -118,6 +122,41 @@ a, .btn, button, .lnk{
     }
 }
 
+.btn-icon {
+    width: 43px;
+    height: 43px;
+    font-size: 26px;
+    background: white;
+    color: @blue-dusty-dark;
+    padding: 0;
+
+    &:hover {
+        background: @blue-dusty-dark;
+        color: white;
+    }
+}
+
+.tooltip-wrapper {
+    position: relative;
+
+    .tooltip {
+        display: none;
+        position: absolute;
+        background: #f5f5f5;
+        color: @blue-dusty-dark;
+        font-size: 1rem;
+        z-index: 1;
+        top: -40px;
+        padding: 5px 10px;
+        border-radius: 3px;
+        box-shadow: 0 3px 12px rgba(0,0,0,.66);
+    }
+
+    &:hover {
+        display: block;
+    }
+}
+
 .pacifico {
     font-family: @pacifico-font;
 }
@@ -135,7 +174,7 @@ a, .btn, button, .lnk{
 }
 
 .text-me-one {
-    font-family: @text-me-one-font;
+    font-family: @overlock-font;
 }
 
 .txt-left {

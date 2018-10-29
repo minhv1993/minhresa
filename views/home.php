@@ -110,7 +110,7 @@
         <div class="tl-section-content">
             <h2 class="">The SEED</h2>
             <p class="txt-just">
-                In the Spring of 2013, Minh and Theresa began to serve on SEED retreat together. SEED retreats involve a lot of meetings and bonding prior to the retreat.Through this process, they learned more about each other and grew closer as friends. It was then that a "seed" formed in Minh’s heart. Some people call it feelings, others may call it a spark. It was Theresa’s quirky personality, love of children, and her faith in God that drew Minh’s attention.
+                In the Spring of 2013, Minh and Theresa began to serve on SEED retreat together. SEED retreats involve a lot of meetings and bonding prior to the retreat. Through this process, they learned more about each other and grew closer as friends. It was then that a "seed" formed in Minh’s heart. Some people call it feelings, others may call it a spark. It was Theresa’s quirky personality, love of children, and her faith in God that drew Minh’s attention.
                 <br><br>
                 He then began to think of the possibility of them being together in a relationship. In true Ignatian spirit, he took the next 6 months to discern whether the feelings were real and if he was brave enough to ask her out. So dramatic, riiiight?
             </p>

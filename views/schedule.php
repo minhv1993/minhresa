@@ -9,7 +9,7 @@
 <!-- Events -->
 <section class="container page-content text-content txt-center thank-you-note">
     <p class="txt-just">
-        We want to say a special thank you and appreciation to both of our families who have been so loving and supportive of us. We also want to say thank you to all our mentors and friends who have added so much joy into our lives with your presence. Thank you and we cannot wait to share our joyous day with you all!
+    We would like to extend our deepest gratitude and appreciation to both of our families who loved us first and taught us to love. We would also like to thank our mentors and friends who have made an impact on our lives in one way or another. We cannot wait to share our special day with you all!
     </p>
     <p>
         Love, <br/>
@@ -33,7 +33,7 @@
             <h5>5056 Barlin Avenue</h5>
             <h5>Lakewood, CA 90712</h5>
             <p class="txt-just">
-            Please arrive 10-15 minutes early. Please park on the side of the street next to the school. Lunch will be serve afterward.
+            Please arrive 10-15 minutes early. Please park on the side of the street next to the school. Lunch will be served afterward.
             </p>
             <div class="btn-container">
                 <a class="btn btn-secondary btn-direction" href="https://goo.gl/maps/r4odU4fLhrK2" target="_blank">
@@ -44,21 +44,21 @@
                         <i class="fa fa-times close"></i>
                         <span class="text">Add To Calendar <i class="fa fa-calendar-alt"></i> </span>
                     </span>
-                    <a class="btn btn-icon cal-type hidden" href="https://add.eventable.com/generate/5bd163c580b3f20018520354/?events[]=5bd163c75d962a008a66928e&opt_in=True&cal_type=apple" target="_blank">
+                    <a class="btn btn-icon tooltip-wrapper cal-type hidden" href="https://add.eventable.com/generate/5bd163c580b3f20018520354/?events[]=5bd163c75d962a008a66928e&opt_in=True&cal_type=apple" target="_blank">
                         <i class="fab fa-apple"></i>
-                        <span>Add to Apple iCal</span>
+                        <span class="tooltip">Add to Apple iCal</span>
                     </a>
-                    <a class="btn btn-icon cal-type hidden" href="https://add.eventable.com/generate/5bd163c580b3f20018520354/?events[]=5bd163c75d962a008a66928e&opt_in=True&cal_type=gcal" target="_blank">
+                    <a class="btn btn-icon tooltip-wrapper cal-type hidden" href="https://add.eventable.com/generate/5bd163c580b3f20018520354/?events[]=5bd163c75d962a008a66928e&opt_in=True&cal_type=gcal" target="_blank">
                         <i class="fab fa-google"></i>
-                        <span>Add to Google Calendar</span>
+                        <span class="tooltip">Add to Google Calendar</span>
                     </a>
-                    <a class="btn btn-icon cal-type hidden" href="https://add.eventable.com/generate/5bd163c580b3f20018520354/?events[]=5bd163c75d962a008a66928e&opt_in=True&cal_type=yahoo" target="_blank">
+                    <a class="btn btn-icon tooltip-wrapper cal-type hidden" href="https://add.eventable.com/generate/5bd163c580b3f20018520354/?events[]=5bd163c75d962a008a66928e&opt_in=True&cal_type=yahoo" target="_blank">
                         <i class="fab fa-yahoo"></i>
-                        <span>Add to Yahoo Calendar</span>
+                        <span class="tooltip">Add to Yahoo Calendar</span>
                     </a>
-                    <a class="btn btn-icon cal-type hidden" href="https://add.eventable.com/generate/5bd163c580b3f20018520354/?events[]=5bd163c75d962a008a66928e&opt_in=True&cal_type=outlook" target="_blank">
+                    <a class="btn btn-icon tooltip-wrapper cal-type hidden" href="https://add.eventable.com/generate/5bd163c580b3f20018520354/?events[]=5bd163c75d962a008a66928e&opt_in=True&cal_type=outlook" target="_blank">
                         <i class="fa fa-envelope"></i>
-                        <span>Add to Outlook</span>
+                        <span class="tooltip">Add to Outlook</span>
                     </a>
                 </div>
             </div>
@@ -89,21 +89,21 @@
                         <i class="fa fa-times close"></i>
                         <span class="text">Add To Calendar <i class="fa fa-calendar-alt"></i> </span>
                     </span>
-                    <a class="btn btn-icon cal-type hidden" href="https://add.eventable.com/generate/5bd163c580b3f20018520354/?events[]=5bd2dbf1a4f79000ac0a734e&opt_in=True&cal_type=apple" target="_blank">
+                    <a class="btn btn-icon tooltip-wrapper cal-type hidden" href="https://add.eventable.com/generate/5bd163c580b3f20018520354/?events[]=5bd2dbf1a4f79000ac0a734e&opt_in=True&cal_type=apple" target="_blank">
                         <i class="fab fa-apple"></i>
-                        <span>Add to Apple iCal</span>
+                        <span class="tooltip">Add to Apple iCal</span>
                     </a>
-                    <a class="btn btn-icon cal-type hidden" href="https://add.eventable.com/generate/5bd163c580b3f20018520354/?events[]=5bd2dbf1a4f79000ac0a734e&opt_in=True&cal_type=gcal" target="_blank">
+                    <a class="btn btn-icon tooltip-wrapper cal-type hidden" href="https://add.eventable.com/generate/5bd163c580b3f20018520354/?events[]=5bd2dbf1a4f79000ac0a734e&opt_in=True&cal_type=gcal" target="_blank">
                         <i class="fab fa-google"></i>
-                        <span>Add to Google Calendar</span>
+                        <span class="tooltip">Add to Google Calendar</span>
                     </a>
-                    <a class="btn btn-icon cal-type hidden" href="https://add.eventable.com/generate/5bd163c580b3f20018520354/?events[]=5bd2dbf1a4f79000ac0a734e&opt_in=True&cal_type=yahoo" target="_blank">
+                    <a class="btn btn-icon tooltip-wrapper cal-type hidden" href="https://add.eventable.com/generate/5bd163c580b3f20018520354/?events[]=5bd2dbf1a4f79000ac0a734e&opt_in=True&cal_type=yahoo" target="_blank">
                         <i class="fab fa-yahoo"></i>
-                        <span>Add to Yahoo Calendar</span>
+                        <span class="tooltip">Add to Yahoo Calendar</span>
                     </a>
-                    <a class="btn btn-icon cal-type hidden" href="https://add.eventable.com/generate/5bd163c580b3f20018520354/?events[]=5bd2dbf1a4f79000ac0a734e&opt_in=True&cal_type=outlook" target="_blank">
+                    <a class="btn btn-icon tooltip-wrapper cal-type hidden" href="https://add.eventable.com/generate/5bd163c580b3f20018520354/?events[]=5bd2dbf1a4f79000ac0a734e&opt_in=True&cal_type=outlook" target="_blank">
                         <i class="fa fa-envelope"></i>
-                        <span>Add to Outlook</span>
+                        <span class="tooltip">Add to Outlook</span>
                     </a>
                 </div>
             </div>
@@ -127,10 +127,10 @@
                 Dinner & Dancing starts at 7:00 PM
             </p>
             <p class="txt-just">
-                *If you plan to take entrance photos, please plan to arrive on-time/early. We will stop taking entrance photo @ 6:50PM.
+                *If you plan to take entrance photos, please plan to arrive on-time/early. Entrance photos will end at 6:50 PM.
             </p>
             <p class="txt-just">
-                **Due to time constraint and the amount of guests, we will only do table greeting for the elderly table. Please drop off your gifts at the check-in table.
+            **Due to time constraints and the amount of guests, we will only formally greet the tables (chao ban) of designated elders. Please drop off your gifts at the check-in table. Thank you!
             </p>
             <div class="btn-container">
                 <a class="btn btn-secondary btn-direction" href="https://goo.gl/maps/cpFKGUYGMrR2" target="_blank">
@@ -141,21 +141,21 @@
                         <i class="fa fa-times close"></i>
                         <span class="text">Add To Calendar <i class="fa fa-calendar-alt"></i> </span>
                     </span>
-                    <a class="btn btn-icon cal-type hidden" href="https://add.eventable.com/generate/5bd163c580b3f20018520354/?events[]=5bd2deb9a4f79000ac0a76dd&opt_in=True&cal_type=apple" target="_blank">
+                    <a class="btn btn-icon tooltip-wrapper cal-type hidden" href="https://add.eventable.com/generate/5bd163c580b3f20018520354/?events[]=5bd2deb9a4f79000ac0a76dd&opt_in=True&cal_type=apple" target="_blank">
                         <i class="fab fa-apple"></i>
-                        <span>Add to Apple iCal</span>
+                        <span class="tooltip">Add to Apple iCal</span>
                     </a>
-                    <a class="btn btn-icon cal-type hidden" href="https://add.eventable.com/generate/5bd163c580b3f20018520354/?events[]=5bd2deb9a4f79000ac0a76dd&opt_in=True&cal_type=gcal" target="_blank">
+                    <a class="btn btn-icon tooltip-wrapper cal-type hidden" href="https://add.eventable.com/generate/5bd163c580b3f20018520354/?events[]=5bd2deb9a4f79000ac0a76dd&opt_in=True&cal_type=gcal" target="_blank">
                         <i class="fab fa-google"></i>
-                        <span>Add to Google Calendar</span>
+                        <span class="tooltip">Add to Google Calendar</span>
                     </a>
-                    <a class="btn btn-icon cal-type hidden" href="https://add.eventable.com/generate/5bd163c580b3f20018520354/?events[]=5bd2deb9a4f79000ac0a76dd&opt_in=True&cal_type=yahoo" target="_blank">
+                    <a class="btn btn-icon tooltip-wrapper cal-type hidden" href="https://add.eventable.com/generate/5bd163c580b3f20018520354/?events[]=5bd2deb9a4f79000ac0a76dd&opt_in=True&cal_type=yahoo" target="_blank">
                         <i class="fab fa-yahoo"></i>
-                        <span>Add to Yahoo Calendar</span>
+                        <span class="tooltip">Add to Yahoo Calendar</span>
                     </a>
-                    <a class="btn btn-icon cal-type hidden" href="https://add.eventable.com/generate/5bd163c580b3f20018520354/?events[]=5bd2deb9a4f79000ac0a76dd&opt_in=True&cal_type=outlook" target="_blank">
+                    <a class="btn btn-icon tooltip-wrapper cal-type hidden" href="https://add.eventable.com/generate/5bd163c580b3f20018520354/?events[]=5bd2deb9a4f79000ac0a76dd&opt_in=True&cal_type=outlook" target="_blank">
                         <i class="fa fa-envelope"></i>
-                        <span>Add to Outlook</span>
+                        <span class="tooltip">Add to Outlook</span>
                     </a>
                 </div>
             </div>
